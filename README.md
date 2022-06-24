@@ -1,20 +1,36 @@
-# Consulta-Cep
+# 🔍 Consulta CEP
 
-# Consulte diversos ceps usando python
+Consulte um CEP através do seu terminal
 
-# Compatível com qualquer sistema que rode python 
+## 📝 Descrição
 
-# Comandos;
+Consulte endereço/localização de um CEP utilizando seu terminal
 
-# apt update -y
+### 🖥️ Dependencias
 
-# apt upgrade -y
+* `Pythom 2/3`
+* `Windows,Linux,Termux`
 
-# apt install python 
+## 🚀 Instalando ConsultaCEP
 
-# apt install pip3
+Para instalar o ConsultaCEP, siga estas etapas:
 
-# pip3 install requests
+Linux e Termux:
+```
+$ pkg install git python
+$ git clone https://github.com/RickMzy/consultacep
+$ cd consultacep
+$ pip install requests
+$ python Consulta_CEP.py
 
-# Já dentro do diretório execute com python consulta-cep.py
+* Se não funcionar o pkg em sua distribuição, use o apt
+```
 
+Windows:
+```
+$ Instale o python em seu ambiente de trabalho
+$ Abra o seu CMD e digite "cd (localaondefoiinstalado)"
+$ pip install requests
+$ python Consulta_CEP.py
+
+```
