@@ -1,5 +1,9 @@
 # Consulta-Cep
 
+# Consulte diversos ceps usando python
+
+# Compatível com qualquer sistema que rode python 
+
 # Comandos;
 
 # apt update -y
