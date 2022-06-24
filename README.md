@@ -21,7 +21,7 @@ $ pkg install git python
 $ git clone https://github.com/RickMzy/consultacep
 $ cd consultacep
 $ pip install requests
-$ python Consulta_CEP.py
+$ python consulta-cep.py
 
 * Se não funcionar o pkg em sua distribuição, use o apt
 ```
@@ -31,6 +31,6 @@ Windows:
 $ Instale o python em seu ambiente de trabalho
 $ Abra o seu CMD e digite "cd (localaondefoiinstalado)"
 $ pip install requests
-$ python Consulta_CEP.py
+$ python consulta-cep.py
 
 ```
